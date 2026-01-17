@@ -1,0 +1,51 @@
+        #Form {
+
+            width: 960px;
+            margin: 20px auto;
+            border: 1px solid #000;
+            background-color: #99CCFF;
+            padding: 10px;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 420px;
+
+        }
+
+        caption {
+            margin-bottom: 3px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #inputcountry{
+            margin-left: 265px;
+        }
+        hr {
+            border: 1px solid #999;
+            margin: 15px 0;
+        }
+
+        textarea {
+            margin-left: 255px;
+            width: 600px;
+            height: 100px;
+        }
+
+        #ha1 {
+            width: 250px;
+            margin-left: 265px;
+        }
+
+    

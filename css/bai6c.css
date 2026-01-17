@@ -1,0 +1,15 @@
+#khung {
+    border: 2px solid blue;
+    padding: 5px;
+    width: 225px;
+    height: 420px;
+}
+
+.ten {
+    margin-top: 15px;
+}
+
+#sub {
+    margin-top: 90px;
+    margin-left: 50px;
+}

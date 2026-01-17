@@ -1,4 +1,4 @@
-Body Systems
+
 
 
 Body Systems LSM400 Linear Smith Machine
@@ -44,9 +44,9 @@ or repair anything that goes wrong.
 Dimensions
    Width: 85"
    Height: 82"
-   Depth: 72"
+   Depth: 72" ////bảng
 
-Optional Attachments
+Optional Attachments 
    Selectorized Lat/Row station (Part: MA831-4)
    Pec Dec station (Part: MA218-6)
    Dip station (Part: MA105-3)

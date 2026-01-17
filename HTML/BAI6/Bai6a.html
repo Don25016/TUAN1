@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/css/bai6a.css">
+
+</head>
+
+<body>
+    <div id="Form">
+        <img src="/JMG/bai6a.png" alt="" width="400px">
+        <h1 style="text-align: center;">Registration Form</h1>
+        <form action="">
+            <table class="top1">
+                <caption>Register your Jackson Electronics product here</caption>
+                <tr>
+                    <td class="o1"><label for="firstName">FirstName:</label></td>
+                    <td><input id="ha1" type="text" name="firstName">
+                        <label for="lastname">LastName: </label><input type="text" name="lastname">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="o1"><label for="Address">Address #1</label></td>
+                    <td><input id="ha1" type="text" name="Address" style="width: 350px;"></td>
+                </tr>
+
+                <tr>
+                    <td class="o1"><label for="Address2">Address #2:</label></td>
+                    <td><input id="ha1" type="text" name="Address2" style="width: 350px;"></td>
+                </tr>
+
+
+                <tr>
+
+
+                    <td class="o1"><label for="City">City: </label></td>
+                    <td><input id="ha1" type="text" name="City">
+                        &nbsp;
+                        <label for="state">State: </label>
+                        <input type="text" name="state" style="width: 10% ;">
+                        <label for="zip">Zip:</label> <input type="text" name="zip" style="width: 15%;">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="country">Country:</label></td>
+
+                    <td><select name="country" id="inputcountry" class="form-control">
+                            <option value="usa">United States</option>
+                            <option value="vn">Vietnam</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ca">Canada</option>
+                            <option value="au">Australia</option>
+                            <option value="fr">France</option>
+                            <option value="de">Germany</option>
+                            <option value="jp">Japan</option>
+                            <option value="kr">South Korea</option>
+                            <option value="cn">China</option>
+                        </select>
+                    </td>
+
+                </tr>
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <td><label for="product">Product:</label></td>
+                    <td><select name="product" id="inputproduct">
+                            <option value="scanmaster" selected>ScanMaster</option>
+                            <option value="printpro">PrintPro 2000</option>
+                            <option value="faxmate">FaxMate X1</option>
+                            <option value="camking">CamKing HD</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="date purchased">Data Purchased:</label></td>
+                    <td><input type="text" name="date purchased" id="ha"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="serial#">Serial#: </label></td>
+                    <td><input type="text" name="serial#" id="ha"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Used for"> Used for: </label></td>
+
+                    <td><input type="radio" id="home" value="Home" name="Used">
+                        <label for="home">Home</label> <br>
+                        <input type="radio" id="bus" value="Business" name="Used">
+                        <label for="bus">Business</label> <br>
+                        <input type="radio" id="Gov" value="Government" name="Used">
+                        <label for="Gov">Government</label>
+                    </td>
+
+                    <td><input type="radio" id="Educational" value="Educational Institution" name="Used">
+                        <label for="Educational">Educational Institution</label><br>
+                        <input type="radio" id="Other" value="Other" name="Used">
+                        <label for="Other">Other</label>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><label for="System (check all that apply):">System (check all that apply):</label></td>
+
+                    <td><input type="checkbox" name="Windows" id="Windows" value="Windows">
+                        <label for="Windows">Windows</label>
+                        <br>
+                        <input type="checkbox" name="Macintosh" id="Macintosh" value="Macintosh">
+                        <label for="Macintosh">Macintosh</label>
+
+                    </td>
+
+
+                    <td><input type="checkbox" name="UNIX" id="UNIX" value="UNIX">
+                        <label for="UNIX">UNIX</label>
+                        <br>
+                        <input type="checkbox" name=" Other" id="Other" value="Other">
+                        <label for="Other">Other</label>
+                    </td>
+
+
+            </table>
+
+            <hr>
+            <table>
+                <tr>
+                    <td><label for="conment">Comments?: </label></td>
+                    <td><textarea name="conment" id="conment"></textarea></td>
+                </tr>
+
+
+            </table>
+
+
+
+            <div style="text-align: center">
+                <button type="button">Click to Register</button>
+                <button type="button">Click to Cancel</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
